@@ -5,8 +5,10 @@
 
 **Description:** Cross-site scripting (XSS) vulnerability in the Create section of the Admin Page of BoidCMS 2.1.0 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into 'Permalink' parameter.
 
+**CVE:** CVE-2024-32342
+
 ## PoC
-### Admin Page -> Create
+### Admin Page -> Create (CVE-2024-32342)
 1. Enter to Create section of Admin Page, set the payload in 'Permalink' parameter and click on the Create button:
 
 ![image](https://github.com/adiapera/xss_create_boidcms_2.1.0/assets/165512291/2a2a96b9-c0e8-4701-a0f0-0e5cbb8a38cc)
